@@ -1,0 +1,1 @@
+# kenric-s-journal
