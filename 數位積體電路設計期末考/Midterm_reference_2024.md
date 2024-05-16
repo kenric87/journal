@@ -36,13 +36,15 @@ wire小時，MOS速度 $\downarrow$，power $\downarrow$
 PMOS可以傳好的1
 NMOS可以傳好的0
 ####  8.	How β affect VTC curve, Noise margin, Power, and Delay? 
-<img src="image-4.png" alt="圖片描述" width="450">\
-<img src="image-3.png" alt="圖片描述" width="450">\
-<img src="image-5.png" alt="圖片描述" width="450">\
+<img src="image-4.png" alt="圖片描述" width="450">
+<img src="image-3.png" alt="圖片描述" width="450">
+<img src="image-5.png" alt="圖片描述" width="450">
 當$\beta_n\neq\beta_p$時，會導致nmos pmos 驅動力不同，導致電路出現額外功耗與delay
 
 ####  9.	Explain Fig. 5-18 
 ![alt text](image-6.png)
+
+
 上升延遲與下降延遲大約在$\beta=2.4$達到相等
 ####  10.	Explain Fig. 5-21 
 ![alt text](image-7.png)
