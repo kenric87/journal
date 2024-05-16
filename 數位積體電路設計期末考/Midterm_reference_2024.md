@@ -16,6 +16,8 @@
 <img src="image-2.png" alt="圖片描述" width="500">
 
 指CMOS 晶片中在V<sub>DD</sub>和gnd之間出現低阻抗通路，使V<sub>DD</sub> gmd 之間產生電流，破壞晶片。
+
+
 to prevent:
 1.  避免source drain 的正向偏壓
 2.  pFET加上一層n-well
