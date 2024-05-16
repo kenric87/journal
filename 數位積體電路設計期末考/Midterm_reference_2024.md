@@ -41,7 +41,9 @@ NMOS可以傳好的0
 <img src="image-4.png" alt="圖片描述" width="450">
 <img src="image-3.png" alt="圖片描述" width="450">
 <img src="image-5.png" alt="圖片描述" width="450">
-當$\beta_n\neq\beta_p$時，會導致nmos pmos 驅動力不同，導致電路出現額外功耗與delay
+
+
+當 $\beta_n\neq\beta_p$ 時，會導致nmos pmos 驅動力不同，導致電路出現額外功耗與delay
 
 ####  9.	Explain Fig. 5-18 
 ![alt text](image-6.png)
