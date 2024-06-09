@@ -7,7 +7,7 @@
 放上幾個我覺得還不錯的語法整理:  
 [MarkDown語法大全](https://hackmd.io/@eMP9zQQ0Qt6I8Uqp2Vqy6w/SyiOheL5N/%2FBVqowKshRH246Q7UDyodFA?type=book)
 
->   若還有不會的話自己Google 應該也可以。
+>   若還有不會的話自己Google
 
 1.  ctrl+shift+v = 在vs code 中開啟預覽  
 2.  設定頁內書籤
