@@ -9,7 +9,7 @@
 
 在寫完文章之後，有時需要將其匯出成pdf供他人使用，這時就需要Markdown PDF來幫忙。  
 安裝完之後，可在編輯區直接按右鍵，選擇**Markdown PDF: Export(pdf)**  
-即可成功匯出。
+即可成功匯出。  
 <img src="./image/image-2.png" width="25%">
 
 ## markdown 語法
