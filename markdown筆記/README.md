@@ -3,7 +3,7 @@
 <img src="./image/image.png" width="85%">  
 
 ### 常用插件介紹
-####    [1.Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)
+####    1.Markdown PDF[(連結)](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)
 <img src="./image/image-1.png" width="85%">
 
 
@@ -11,6 +11,10 @@
 安裝完之後，可在編輯區直接按右鍵，選擇**Markdown PDF: Export(pdf)**  
 即可成功匯出。  
 <img src="./image/image-2.png" width="25%">
+
+####    2.Markdown All in One[(連結)](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+到最後還是載了這個，很多想要的小功能都可以在這找到，目前只有使用他的預覽功能而已。
+>預覽快捷鍵:ctrl+shift+V
 
 ## markdown 語法
 
@@ -31,7 +35,7 @@
 連結部分:```- [緣起](#1) ```
 ### 頁外頁內書籤
 剛剛在網路上找到另一個更好用的方法  
-[youtube 短影片網址](https://youtube.com/shorts/G5580-DxQuw?si=BW4Y6ribnmY752qM)  
+[youtube](https://youtube.com/shorts/G5580-DxQuw?si=BW4Y6ribnmY752qM)  
 簡單來說，除了可以在文章內可以跳轉，還可以跳到另外一篇文章的某個標題裡  
 具體作法如下:  
 ```markdown
