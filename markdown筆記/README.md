@@ -1,7 +1,16 @@
-## 使用Markdown編輯器
+## 使用的Markdown編輯器
 我是用vs code，她其實有很多插件可以安裝，裝完之後，即可順暢使用
-![演示照片](./image/image.png)
-<img src="./image/image.png" width="50%">
+<img src="./image/image.png" width="85%">  
+
+### 常用插件介紹
+####    [1.Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)
+<img src="./image/image-1.png" width="85%">
+
+
+在寫完文章之後，有時需要將其匯出成pdf供他人使用，這時就需要Markdown PDF來幫忙。  
+安裝完之後，可在編輯區直接按右鍵，選擇**Markdown PDF: Export(pdf)**  
+即可成功匯出。
+<img src="./image/image-2.png" width="25%">
 
 ## markdown 語法
 
