@@ -9,13 +9,18 @@
 
 在寫完文章之後，有時需要將其匯出成pdf供他人使用，這時就需要Markdown PDF來幫忙。  
 安裝完之後，可在編輯區直接按右鍵，選擇**Markdown PDF: Export(pdf)**  
-即可成功匯出。  
+即可成功匯出。
 <img src="./image/image-2.png" width="25%">
 
 ####    2.Markdown All in One[(連結)](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 到最後還是載了這個，很多想要的小功能都可以在這找到，目前只有使用他的預覽功能而已。
->預覽快捷鍵:ctrl+shift+V
+>預覽快捷鍵:ctrl+shift+V  
 
+其實就算沒有載這個，按上述的快捷鍵也可預覽([參考連結](https://youtube.com/shorts/ILgCcjoNung?si=RE32axd4Jm4hVGs6)  )，但那個預覽仍然有一些缺點，其中一個是換行部分無法正確顯示。
+![這是沒有裝插件下的預覽](./image/1.png "這是沒有裝插件下的預覽")
+![alt text](./image/image-3.png "這是有裝插件下的預覽")
+
+可以發現，有裝插件下的預覽對於換行會比較謹慎。若是沒有成功換行(上一行要有兩個空格)，會如實顯示，這樣對於日後的發布也較為順暢。
 ## markdown 語法
 
 >   我個人認為，markdown可以不用一下子全部都會，先用再說，然後大概知道有哪些功能即可(阿其實也不用100%知道)  
@@ -58,3 +63,5 @@ HackMD 可以指定圖片的大小，其語法如下：
 第二種
 <img src="圖片位址" width="200" height="200">
 ```
+
+[000](../數位積體電路設計期末考/Midterm_reference_2024.md#12power-consumption-sources-and-their-occurrence-reasons)
