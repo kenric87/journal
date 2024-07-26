@@ -63,5 +63,3 @@ HackMD 可以指定圖片的大小，其語法如下：
 第二種
 <img src="圖片位址" width="200" height="200">
 ```
-
-[000](../數位積體電路設計期末考/Midterm_reference_2024.md#12power-consumption-sources-and-their-occurrence-reasons)
