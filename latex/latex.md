@@ -4,8 +4,13 @@
 
 接者，若檔案路徑中有中文，或是之後撰寫的內容有中文
 需參考以下[文章](https://zhuanlan.zhihu.com/p/38178015)  
-這當中有說明，面對**中文路徑**時的解決辦法
+這當中有說明，面對**中文路徑**時的解決辦法  
 ![alt text](image/5.png)
+
+
+
+
+目前遇到第一個問題，在單純轉譯英文資料時，雖然可以順暢的轉過去，但是點開log，會發現仍有一些小型錯誤。
 ```latex
 % 這是下圖中，main.tex的內容
 \documentclass[12pt]{article}
@@ -21,11 +26,6 @@ with desktop publishing software like Aldus PageMaker including versions of Lore
 % \input{chapter1.tex}000
 \end{document}
 ```
-
-
-
-目前遇到第一個問題，在單純轉譯英文資料時，雖然可以順暢的轉過去，但是點開log，會發現仍有一些小型錯誤。
-
 ![alt text](image/1.png)
 ---------
 打開MikTex並更新 >check for updates
