@@ -4,8 +4,8 @@
 
 接者，若檔案路徑中有中文，或是之後撰寫的內容有中文
 需參考以下[文章](https://zhuanlan.zhihu.com/p/38178015)  
-這當中有說明，面對中文路徑時的解決辦法
-
+這當中有說明，面對**中文路徑**時的解決辦法
+![alt text](image/5.png)
 ```latex
 % 這是下圖中，main.tex的內容
 \documentclass[12pt]{article}
@@ -34,6 +34,6 @@ with desktop publishing software like Aldus PageMaker including versions of Lore
 點擊更新按鈕後，上述問題即可解決。
 
 到了這邊，先檢查兩件事
-1.  存檔後，是否可以自動生成PDF
+1.  存檔後，是否可以**自動**生成PDF
 2.  在命令區，xelatex是否是第一個
 ![alt text](image/4.png)
