@@ -28,7 +28,7 @@ with desktop publishing software like Aldus PageMaker including versions of Lore
 ```
 ![alt text](image/1.png)
 ---------
-打開MikTex並更新 >check for updates
+打開MikTex並更新 &rarr; check for updates  
 ![alt text](image/2.png)
 ![alt text](image/3.png)
 點擊更新按鈕後，上述問題即可解決。
