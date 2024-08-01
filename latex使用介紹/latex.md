@@ -1,4 +1,4 @@
-第一步  
+#   第一步  
 先依據這網址來安裝  
 [點這](https://hackmd.io/@WeiHeng/rkxi0RC-2)
 
@@ -33,7 +33,17 @@ with desktop publishing software like Aldus PageMaker including versions of Lore
 ![alt text](image/3.png)
 點擊更新按鈕後，上述問題即可解決。
 
-到了這邊，先檢查兩件事
+##  到了這邊，先檢查兩件事
 1.  存檔後，是否可以**自動**生成PDF
 2.  在命令區，xelatex是否是第一個
 ![alt text](image/4.png)
+如果這兩點都通過的話，可以試著在文檔區中打入一些中文
+
+---
+#   第二步  
+照以下這兩個網站練習  
+[YouTube1](https://youtu.be/mQamBS6uTOc?si=EQ4w6s5K-QXGBi61)  
+[YouTube2](https://youtu.be/NYm7cXVtSO0?si=Nf-HNIfaFaVmp0zp)  
+目前會先按照[YouTube2](https://youtu.be/NYm7cXVtSO0?si=Nf-HNIfaFaVmp0zp)上面教的來練習
+
+
