@@ -1,13 +1,33 @@
-#   第一步  
-先依據這網址來安裝  
-[點這](https://hackmd.io/@WeiHeng/rkxi0RC-2)
+#   在vscode 上編寫 LaTeX
+##   第一步  
+選擇其中一個發行版安裝，目前有兩大主流:TeXLive和MiKTeX  
+其實裝哪一個都沒差，並不會影響實際使用體驗  
+我是裝[MiKTeX](https://miktex.org/download)，他跟TeXLive最大的差別是在他並不會一次就把所有的packages全部下載(全部也才5GB，所以真的沒差)，等到需要用到時才會彈窗提示你要下載。[資料來源](https://medium.com/@Yich_2826/latex-latex%E5%92%8Cxelatex%E5%AE%89%E8%A3%9D%E5%BF%83%E5%BE%97-9ca78cf583b8)  
 
-接者，若檔案路徑中有中文，或是之後撰寫的內容有中文
-需參考以下[文章](https://zhuanlan.zhihu.com/p/38178015)  
+##   第二步  
+安裝完MiKTeX後，點開，安裝[Perl](https://strawberryperl.com/)  
+來到VScode，安裝LaTeX Workshop  
+
+<img src="image/6.png" width="70%">
+
+##   第三步  
+因為之後撰寫的文章高機率會有中文，所以我們需要將xelatex 放在第一順位  
+*   點左下齒輪打開設定，進入到`settings`搜尋`recipe`，然後點擊`Edit in settings.json`  
+<img src="image/7.png" width="70%">  
+*   在設定檔內找到`latexmk (xelatex)`，並將其移動到{}中的最上方  
+<img src="image/8.png" width="70%">  
+資料來源:
+https://hackmd.io/@WeiHeng/rkxi0RC-2
+
+
+##   第四步  
+接者，若檔案路徑中有中文，還需要再做一件事，
+
 這當中有說明，面對**中文路徑**時的解決辦法  
 ![alt text](image/5.png)
 
-
+資料來源:
+https://zhuanlan.zhihu.com/p/38178015
 
 
 目前遇到第一個問題，在單純轉譯英文資料時，雖然可以順暢的轉過去，但是點開log，會發現仍有一些小型錯誤。
@@ -33,14 +53,14 @@ with desktop publishing software like Aldus PageMaker including versions of Lore
 ![alt text](image/3.png)
 點擊更新按鈕後，上述問題即可解決。
 
-##  到了這邊，先檢查兩件事
+###  到了這邊，先檢查兩件事
 1.  存檔後，是否可以**自動**生成PDF
 2.  在命令區，xelatex是否是第一個
 ![alt text](image/4.png)
 如果這兩點都通過的話，可以試著在文檔區中打入一些中文
 
 ---
-#   第二步  
+##   第二步  
 照以下這兩個網站練習  
 [YouTube1](https://youtu.be/mQamBS6uTOc?si=EQ4w6s5K-QXGBi61)  
 [YouTube2](https://youtu.be/NYm7cXVtSO0?si=Nf-HNIfaFaVmp0zp)  
