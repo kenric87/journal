@@ -15,6 +15,7 @@
 因為之後撰寫的文章高機率會有中文，所以我們需要將xelatex 放在第一順位  
 *   點左下齒輪打開設定，進入到`settings`搜尋`recipe`，然後點擊`Edit in settings.json`  
 <img src="image/7.png" width="70%">  
+
 *   在設定檔內找到`latexmk (xelatex)`，並將其移動到{}中的最上方  
 <img src="image/8.png" width="70%">  
 資料來源:  
