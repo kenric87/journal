@@ -1,4 +1,4 @@
-#   在vscode 上編寫 LaTeX
+#   在VScode 上編寫 LaTeX
 ##   第一步  
 選擇其中一個發行版安裝，目前有兩大主流:TeXLive和MiKTeX  
 其實裝哪一個都沒差，並不會影響實際使用體驗  
@@ -6,6 +6,8 @@
 
 ##   第二步  
 安裝完MiKTeX後，點開，安裝[Perl](https://strawberryperl.com/)  
+資料來源:  
+https://hackmd.io/@WeiHeng/rkxi0RC-2
 ##   第三步 
 來到VScode，安裝LaTeX Workshop  
 
