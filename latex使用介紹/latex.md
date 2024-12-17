@@ -6,11 +6,12 @@
 
 ##   第二步  
 安裝完MiKTeX後，點開，安裝[Perl](https://strawberryperl.com/)  
+##   第三步 
 來到VScode，安裝LaTeX Workshop  
 
 <img src="image/6.png" width="70%">
 
-##   第三步  
+##   第四步  
 因為之後撰寫的文章高機率會有中文，所以我們需要將xelatex 放在第一順位  
 *   點左下齒輪打開設定，進入到`settings`搜尋`recipe`，然後點擊`Edit in settings.json`  
 <img src="image/7.png" width="70%">  
@@ -20,7 +21,7 @@
 https://hackmd.io/@WeiHeng/rkxi0RC-2
 
 
-##   第四步  
+##   第五步  
 接者，若檔案路徑中有中文，還需要再做一件事  
 先進入剛剛的`Edit in settings.json`  
 把 %DOC% 更改成 %DOCFILE%  
@@ -34,14 +35,31 @@ https://zhuanlan.zhihu.com/p/38178015
 1.  存檔後，是否可以**自動**生成PDF
 2.  在命令區，xelatex是否是第一個
 ![alt text](image/4.png)
-如果這兩點都通過的話，可以試著在文檔區中打入一些中文
+如果這兩點都通過的話，可以試著在文檔區中打入一些中文，看是否能正常運行
+
+```latex
+\documentclass[12pt]{article}
+\usepackage{xeCJK}
+\xeCJKsetup{AutoFakeBold=true, AutoFakeSlant=true}
+\setCJKmainfont{標楷體}
+\setmainfont{Times New Roman}
+% \setCJKmainfont{NotoSansTC-Regular.otf}
+\title{\LaTeX Test Document}
+\author{Nobody}
+\begin{document}
+\maketitle
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+我是中文字
+\end{document}
+```
 
 ---
-##   第五步  
-照以下這兩個網站練習  
-[YouTube1](https://youtu.be/mQamBS6uTOc?si=EQ4w6s5K-QXGBi61)  
-[YouTube2](https://youtu.be/NYm7cXVtSO0?si=Nf-HNIfaFaVmp0zp)  
-目前會先按照[YouTube2](https://youtu.be/NYm7cXVtSO0?si=Nf-HNIfaFaVmp0zp)上面教的來練習
+##   練習網站
+https://youtu.be/mQamBS6uTOc?si=EQ4w6s5K-QXGBi61 
+https://youtu.be/NYm7cXVtSO0?si=Nf-HNIfaFaVmp0zp  
+
 
 ##  之前遇到的問題
 目前遇到第一個問題，在單純轉譯英文資料時，雖然可以順暢的轉過去，但是點開log，會發現仍有一些小型錯誤。
