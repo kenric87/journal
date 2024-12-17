@@ -57,7 +57,7 @@ with desktop publishing software like Aldus PageMaker including versions of Lore
 
 ---
 ##   練習網站
-https://youtu.be/mQamBS6uTOc?si=EQ4w6s5K-QXGBi61 
+https://youtu.be/mQamBS6uTOc?si=EQ4w6s5K-QXGBi61  
 https://youtu.be/NYm7cXVtSO0?si=Nf-HNIfaFaVmp0zp  
 
 
