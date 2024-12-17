@@ -38,6 +38,7 @@ https://zhuanlan.zhihu.com/p/38178015
 如果這兩點都通過的話，可以試著在文檔區中打入一些中文，看是否能正常運行
 
 ```latex
+%我是測試的檔案
 \documentclass[12pt]{article}
 \usepackage{xeCJK}
 \xeCJKsetup{AutoFakeBold=true, AutoFakeSlant=true}
