@@ -16,20 +16,34 @@
 <img src="image/7.png" width="70%">  
 *   在設定檔內找到`latexmk (xelatex)`，並將其移動到{}中的最上方  
 <img src="image/8.png" width="70%">  
-資料來源:
+資料來源:  
 https://hackmd.io/@WeiHeng/rkxi0RC-2
 
 
 ##   第四步  
-接者，若檔案路徑中有中文，還需要再做一件事，
+接者，若檔案路徑中有中文，還需要再做一件事  
+先進入剛剛的`Edit in settings.json`  
+把 %DOC% 更改成 %DOCFILE%  
+<img src="image/9.png" width="70%">
 
-這當中有說明，面對**中文路徑**時的解決辦法  
-![alt text](image/5.png)
+資料來源:  
+https://zhuanlan.zhihu.com/p/38178015  
 
-資料來源:
-https://zhuanlan.zhihu.com/p/38178015
+到這邊基本上就完成了!
+###  到了這邊，先檢查兩件事
+1.  存檔後，是否可以**自動**生成PDF
+2.  在命令區，xelatex是否是第一個
+![alt text](image/4.png)
+如果這兩點都通過的話，可以試著在文檔區中打入一些中文
 
+---
+##   第五步  
+照以下這兩個網站練習  
+[YouTube1](https://youtu.be/mQamBS6uTOc?si=EQ4w6s5K-QXGBi61)  
+[YouTube2](https://youtu.be/NYm7cXVtSO0?si=Nf-HNIfaFaVmp0zp)  
+目前會先按照[YouTube2](https://youtu.be/NYm7cXVtSO0?si=Nf-HNIfaFaVmp0zp)上面教的來練習
 
+##  之前遇到的問題
 目前遇到第一個問題，在單純轉譯英文資料時，雖然可以順暢的轉過去，但是點開log，會發現仍有一些小型錯誤。
 ```latex
 % 這是下圖中，main.tex的內容
@@ -52,18 +66,5 @@ with desktop publishing software like Aldus PageMaker including versions of Lore
 ![alt text](image/2.png)
 ![alt text](image/3.png)
 點擊更新按鈕後，上述問題即可解決。
-
-###  到了這邊，先檢查兩件事
-1.  存檔後，是否可以**自動**生成PDF
-2.  在命令區，xelatex是否是第一個
-![alt text](image/4.png)
-如果這兩點都通過的話，可以試著在文檔區中打入一些中文
-
----
-##   第二步  
-照以下這兩個網站練習  
-[YouTube1](https://youtu.be/mQamBS6uTOc?si=EQ4w6s5K-QXGBi61)  
-[YouTube2](https://youtu.be/NYm7cXVtSO0?si=Nf-HNIfaFaVmp0zp)  
-目前會先按照[YouTube2](https://youtu.be/NYm7cXVtSO0?si=Nf-HNIfaFaVmp0zp)上面教的來練習
 
 
