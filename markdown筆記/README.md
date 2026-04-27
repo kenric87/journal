@@ -77,10 +77,6 @@ HackMD 可以指定圖片的大小，其語法如下：
         <figcaption>圖 1：Ubuntu 終端機畫面</figcaption>
     </figure>
 </div>
-```
 ````
 
 我後來是用這個
-
-
-
