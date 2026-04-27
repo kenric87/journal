@@ -5,4 +5,11 @@
 
 
 
-<div align="center">   <figure>     <img src="./01_Shell.assets/image-20260427234900588.png" alt="Ubuntu terminal" width="50%">     <figcaption>圖 1：Ubuntu 終端機畫面</figcaption>   </figure> </div>
+<div align="left">
+    <figure>
+        <img src="./01_Shell.assets/image-20260427234900588.png" alt="Ubuntu terminal" width="50%">
+        <br>
+        <figcaption>圖 1：Ubuntu 終端機畫面</figcaption>
+    </figure>
+</div>
+
