@@ -1,9 +1,14 @@
+
+
 ## 使用的Markdown編輯器
+
 我是用vs code，他其實有很多插件可以安裝，裝完之後，即可順暢使用
 <img src="./image/image.png" width="85%">  
 
 ### 常用插件介紹
+
 ####    1.Markdown PDF[(連結)](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)
+
 <img src="./image/image-1.png" width="85%">
 
 
@@ -36,7 +41,7 @@
 ### 頁內書籤
 1.  ctrl+shift+v = 在vs code 中開啟預覽  
 2.  設定頁內書籤
-標題部分:``` <h2 id="1">緣起</h2>```  
+標題部分:```<h2 id="1">緣起</h2>```  
 連結部分:```- [緣起](#1) ```
 ### 頁外頁內書籤
 剛剛在網路上找到另一個更好用的方法  
@@ -57,9 +62,25 @@ HackMD 可以指定圖片的大小，其語法如下：
 
 ---
 通常是用這個 **HTML img size 圖片大小設置**
-```
+```html
 第一種
 <img src="圖片位址" width="50%">
 第二種
 <img src="圖片位址" width="200" height="200">
 ```
+
+````html
+<div align="left">
+    <figure>
+        <img src="./01_Shell.assets/image-20260427234900588.png" alt="Ubuntu terminal" width="50%">
+        <br>
+        <figcaption>圖 1：Ubuntu 終端機畫面</figcaption>
+    </figure>
+</div>
+```
+````
+
+我後來是用這個
+
+
+
