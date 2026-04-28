@@ -8,3 +8,4 @@
   <br>
   <sup>圖 1：Ubuntu 終端機畫面</sup>
 </div>
+<img src="./01_Shell.assets/image-20260428115312591.png" alt="image-20260428115312591" style="zoom:50%;" />
