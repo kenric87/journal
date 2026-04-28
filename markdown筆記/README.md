@@ -80,3 +80,11 @@ HackMD 可以指定圖片的大小，其語法如下：
 ````
 
 我後來是用這個
+
+```html
+<div align="center">
+  <img src="./01_shell.assets/image-20260427233649802.png" alt="Ubuntu terminal" width="50%">
+  <br>
+  <sup>圖 1：Ubuntu 終端機畫面</sup>
+</div>
+```
